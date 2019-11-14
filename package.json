@@ -1,0 +1,23 @@
+{
+  "name": "cypress-boilerplate",
+  "version": "1.0.0",
+  "description": "Run e2e tests using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "test:headless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsalunke/cypress-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidsalunke/cypress-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sidsalunke/cypress-boilerplate#readme",
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  }
+}
